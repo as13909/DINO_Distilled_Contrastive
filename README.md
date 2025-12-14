@@ -12,27 +12,31 @@ Final_Submission/
 ├── DINO_distillled_contrastive.py          # Main script containing model, training, etc...
 ├── .gitignore.py                           # The gitignore
 ├── requirements.txt                        # Python dependencies
+|
 ├── testset_1/                              # Evaluation code for test set 1
 │   ├── create_submission_knn6.py           # Creates submission file to submit on kaggle
 │   ├── DINO_distillled_contrastive.py      # Same as original DINO makes it easier for Py to find
 │   ├── prepare_cub200_for_kaggle.py        # Gets dataset for test set 1
 │   ├── submission1.csv                     # Submission csv for test set 1
-├── ├── kd_out/                             # Sub folder which contains final / best .pth file
-|   |   ├── student_final.pth               # This was our best .pth file from running DINO_Distilled_Contrastive
+|   └── kd_out/                             # Sub folder which contains final / best .pth file
+|       └── student_final.pth               # This was our best .pth file from running DINO_Distilled_Contrastive
+|
 ├── testset_2/                              # Evaluation code for test set 2
 │   ├── create_submission_knn6.py           # Creates submission file to submit on kaggle
 │   ├── DINO_distillled_contrastive.py      # Same as original DINO makes it easier for Py to find
 │   ├── prepare_cub200_for_kaggle.py        # Gets dataset for test set 2
 │   ├── submission2.csv                     # Submission csv for test set 2
-├── ├── kd_out/                             # Sub folder which contains final / best .pth file
-|   |   ├── student_final.pth               # This was our best .pth file from running DINO_Distilled_Contrastive
+|   └── kd_out/                             # Sub folder which contains final / best .pth file
+|       └── student_final.pth               # This was our best .pth file from running DINO_Distilled_Contrastive
+|
 ├── testset_3/                              # Evaluation code for test set 3
 │   ├── create_submission_knn6.py           # Creates submission file to submit on kaggle
 │   ├── DINO_distillled_contrastive.py      # Same as original DINO makes it easier for Py to find
 │   ├── prepare_cub200_for_kaggle.py        # Gets dataset for test set 3
-├── ├── kd_out/                             # Sub folder which contains final / best .pth file
-|   |   ├── student_final.pth               # This was our best .pth file from running DINO_Distilled_Contrastive
-
+|   └── kd_out/                             # Sub folder which contains final / best .pth file
+|       └── student_final.pth               # This was our best .pth file from running DINO_Distilled_Contrastive
+|
+└── README.md                               # This file
 
 ```
 
